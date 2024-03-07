@@ -14,7 +14,9 @@ And scaling both the training and testing data with StandardScaler.
 and finally, using StandardScaler to scale the training and testing sets
 
 Compiling, Training, and Evaluating the Model
+
 ATTEMPT 1
+
 Hyperparameters used:
 
 layers: 2
