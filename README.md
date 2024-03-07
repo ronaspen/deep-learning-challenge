@@ -1,5 +1,8 @@
 # deep-learning-challenge
 
+Repo: 
+Starter_Code1.ipynb is the code for the first model, and AlphabetSoupCharity_Optimisation.ipynb is the code for the second model.
+
 Purpose of the Analysis is to see what changes we made to create a binary classifier that can predict whether the applicants would be successful if funded by Alphabet Soup.
 
 
