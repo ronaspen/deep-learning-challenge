@@ -14,8 +14,27 @@ And scaling both the training and testing data with StandardScaler.
 and finally, using StandardScaler to scale the training and testing sets
 
 Compiling, Training, and Evaluating the Model
+ATTEMPT 1
+Hyperparameters used:
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take in your attempts to increase model performance?
-Summary: Summarise the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+layers: 2
+layer 1: 8 neurons : activation function = ‘relu’
+layer 2: 5 neurons : activation function = ‘relu'
+epochs: 100
+Accuracy: 0.7245481014251709
+
+ATTEMPT 2
+Hyperparameters used:
+
+layers: 3
+layer 1: 10 neurons : activation function = ‘relu’
+layer 2: 8 neurons : activation function = ‘sigmoid'
+layer 3: 6 neurons : activation function = 'sigmoid
+
+Also, I didn't drop the 'NAME' column for attempt 2, rather I created a cut off for rarer names and binned it as 'Other'.
+epochs: 50
+Accuracy: 0.758950412273407
+
+Summary:
+I am very pleased to report that I was able to achieve a model that scored over 75% accuracy. In my opinion, the including of name proved a crucial difference, as name seemed to be 
+a factor that determined venture success. Also, adding another layer, adding more neurons on each layer, and changing the last 2 functions to 'sigmoid'. 
